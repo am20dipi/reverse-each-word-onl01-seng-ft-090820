@@ -6,10 +6,11 @@ def reverse_each_word(sentence)
     new_array << words.reverse
   end
   return new_array.join(" ")
-  binding.pry
-  sentence_array.collect {|words|:reverse_each_word}
 end
 
-
+def reverse_each_word(phrase)
+  arr = phrase.split(" ")
+  arr.collect(&:reverse).join(" ")
+end
   
   
