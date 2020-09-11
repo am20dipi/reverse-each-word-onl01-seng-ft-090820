@@ -7,7 +7,7 @@ def reverse_each_word(sentence)
   end
   return new_array.join(" ")
   binding.pry
-  sentence_array.collect {|words| reverse.join(" ")}
+  sentence_array.collect {|words| :reverse_each_word}
 end
 
 
