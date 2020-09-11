@@ -8,9 +8,9 @@ def reverse_each_word(sentence)
   return new_array.join(" ")
 end
 
-def reverse_each_word(phrase)
-  arr = phrase.split(" ")
-  arr.collect(&:reverse).join(" ")
+def reverse_each_word(sentence)
+  new2array = sentence.split(" ")
+  new2array.collect(&:reverse).join(" ")
 end
   
   
